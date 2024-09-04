@@ -7,12 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Login</title>
+    <title>Cadastro</title>
 </head>
 <body>
         <form action="">
             <div>
-                <h2 style="color: #101828;">Entre na sua conta</h2>
+                <h2 style="color: #101828;">Crie sua conta</h2>
+            </div>
+            <div class="nome">
+                <h3>Nome</h3>
+                <input type="text" placeholder="Digite seu nome">
             </div>
             <div class="textI">
                 <h3>E-mail</h3>
@@ -21,15 +25,14 @@
             <div class="textII">
                 <div id="text-senhaI">
                     <span id="text-senhaII">Senha</span>
-                    <a id="esqueceu" href="">Esqueceu?</a>
                 </div>
                 <input type="password" placeholder="Digite sua senha">
             </div>
             <div class="ir">
-                <button>Entrar</button> <br>
+                <button>Criar conta</button> <br>
                 <div>
-                    <span class="cadastro">Não possui uma conta?</span>
-                    <a class="link" href="cadastro.html">Cadastre-se</a>
+                    <span id="login" style="color: #98A2B3;">Já possui uma conta?</span>
+                    <a href="login.html">Log In</a>
                 </div>
             </div>
         </form>

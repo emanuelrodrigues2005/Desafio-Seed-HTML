@@ -86,28 +86,11 @@ button{
 a{
     text-decoration: none;
     color: #1570EF;
-    font-size: 16px;
-}
-
-.link{
-    font-size: 16px;
-    color: #1570EF;
-    text-decoration: none;
-}
-
-.link:hover{
-    text-decoration: underline;
-    color: #101828;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #101828;
-}
-
-.cadastro{
-    font-size: 16px;
-    color: #98A2B3;
+    color: #102838;
 }
 
 @media(max-width: 450px) {
@@ -135,13 +118,5 @@ a:hover{
 
     #esqueceu{
         margin-left: 124px;
-    }
-
-    .link{
-        font-size: 12px;
-    }
-
-    .cadastro{
-        font-size: 12px;
     }
 }
