@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,4 +35,49 @@
             </div>
         </form>
 </body>
+=======
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Login</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="div_junto">
+            <form id="formLogin" target = "_blank">
+                <div>
+                    <h2 style="color: #101828;">Entre na sua conta</h2>
+                </div>
+                <div class="textI">
+                    <h3>E-mail</h3>
+                    <input id="emailLogin" type="email" placeholder="email@gmail.com">
+                </div>
+                <div class="textII">
+                    <div id="text-senhaI">
+                        <label id="text-senhaII">Senha</label>
+                        <a id="esqueceu" href="">Esqueceu?</a>
+                    </div>
+                    <input id="passwordLogin" type="password" placeholder="Digite sua senha">
+                </div>
+                <div class="ir">
+                    <button onclick="validacaoLogin()" type="button">Entrar</button>
+                    <div>
+                        <span class="cadastro">Não possui uma conta?</span>
+                        <a class="link" href="cadastro.html">Cadastre-se</a>
+                    </div>
+                </div>
+            </form>
+            <div id="loginErro" class="oculto">
+                <img id="Warning" src="Frame 31.svg" alt="Warning">
+                <span id="text-erroI">Erro de Login</span>
+                <span id="text-erroII">Seu usuário ou senha estão errados</span>
+                <button id="tryAgainButton" onclick="tryAgain()">Tente novamente</button>
+            </div>
+        </div>
+    </body>
+>>>>>>> 9f2fd52 (Páginas de cadastro, login e Home de um site web e mobile com uso de JavaScript)
 </html>
