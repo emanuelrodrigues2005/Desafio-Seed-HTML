@@ -8,14 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Cadastro</title>
+<<<<<<< HEAD
 </head>
 <body>
         <form action="">
+=======
+    <script src="script.js"></script>
+</head>
+<body>
+        <form target = "_blank" id="formCadastro">
+>>>>>>> 9f2fd52 (Páginas de cadastro, login e Home de um site web e mobile com uso de JavaScript)
             <div>
                 <h2 style="color: #101828;">Crie sua conta</h2>
             </div>
             <div class="nome">
                 <h3>Nome</h3>
+<<<<<<< HEAD
                 <input type="text" placeholder="Digite seu nome">
             </div>
             <div class="textI">
@@ -32,6 +40,34 @@
                 <button>Criar conta</button> <br>
                 <div>
                     <span id="login" style="color: #98A2B3;">Já possui uma conta?</span>
+=======
+                <input id="nome" type="text" placeholder="Digite seu nome"> <br>
+                <label id="errorNome">Erro: o campo Nome não pode conter número ou pontuações!</label>
+            </div>
+            <div class="textI">
+                <h3>E-mail</h3>
+                <input id="email" type="email" placeholder="email@gmail.com"> <br> 
+                <label id="errorEmail">Erro: o campo Email deve conter @ e, pelo menos, 5 caracteres!</label>
+            </div>
+            <div class="textII">
+                <div id="text-senhaI">
+                    <label id="text-senhaII">Senha</label>
+                </div>
+                <input id="password" type="password" placeholder="Digite sua senha"> <br>
+                <label id="errorSenha">Erro: A sua senha deve ter no mínimo 6 caracteres!</label>
+            </div>
+            <div class="textII"></div>
+                <div id="text-senhaI">
+                    <label id="text-senhaIII">Confirmar senha</label>
+                </div>
+                <input id="confirmPassword" type="password" placeholder="Confirme sua senha"> <br>
+                <label id="errorConfirm">Erro: as senhas não combinam!</label>
+            </div>
+            <div class="ir">
+                <button onclick="validacaoCadastro()" type="button">Criar conta</button>
+                <div>
+                    <label id="login" style="color: #98A2B3;">Já possui uma conta?</label>
+>>>>>>> 9f2fd52 (Páginas de cadastro, login e Home de um site web e mobile com uso de JavaScript)
                     <a href="login.html">Log In</a>
                 </div>
             </div>
